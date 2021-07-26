@@ -9,4 +9,79 @@
 .header-button .button.icon i
     font-size: 2.2em !important
     padding: 10px !important
+/*top bar fix height*/
 
+.nav-small .nav>li>a, .nav.nav-small>li>a 
+	padding-top: 0
+	padding-bottom: 0
+
+/*top bar fix styles*/
+
+.top-bar_content 
+	font-weight: 400
+
+#top-bar .nav-left 
+    -webkit-box-pack: flex-start !important
+    -ms-flex-pack: flex-start !important
+    justify-content: flex-start !important
+header .search-field 
+	height: 45px !important
+	border: 1px solid rgb(225,225,225)
+	padding-left: 3rem
+.search-field .flex-row.relative 
+	flex-direction: row-reverse
+.searchform-wrapper.form-flat .flex-col:last-of-type 
+	margin-left: 0
+	position: absolute
+	left: 5px
+
+.ux-search-submit i 
+	color: #4f4a4a
+/*Cart styles*/
+.header-button .button.header-cart-link:not(.is-outline) 
+	background-color: #4f4a4a
+	padding: 5px 10px
+	display: flex
+	border-radius: 3px
+	align-items: center
+	flex-direction: row-reverse
+.header-button .button.header-cart-link:not(.is-outline):hover 
+	background-color: #ffba00
+	box-shadow: none
+.header-cart-icon img
+	height: 18px
+	line-height: 18px
+	font-size: 18px
+.header-button 
+	background-color: transparent !important
+span+.header-cart-icon 
+	margin-left: 0
+	margin-right: 5px
+.category-page-title .woocommerce-result-count , .category-page-title .woocommerce-ordering 
+	display: none
+.category-title-secondary .woocommerce-result-count, .category-title-secondary .woocommerce-ordering 
+	display: inline-block
+.category-title-secondary 
+	margin-bottom: 20px
+.category-title-secondary .woocommerce-breadcrumb
+	display: none
+.category-title-secondary .category-page-title
+	border: none
+.tax-product_cat .category-page-row
+    padding: 0
+.category-page-arcticle-title-col
+    padding: 0 !important
+.category-page-arcticle-content-col
+	padding: 0
+.category-page-arcticle-col
+	padding: 0 !important
+.select2-container--default .select2-selection--single
+	border: none !important
+	background-color: #f7f7f7 !important
+.select2-container--default .select2-search--dropdown .select2-search__field
+	border:none !important
+.select2-dropdown
+	border: none !important
+	background-color: #f7f7f7 !important
+.ux-menu.ux-menu--divider-solid .ux-menu-link:not(:last-of-type) .ux-menu-link__link
+    border-bottom: transparent
