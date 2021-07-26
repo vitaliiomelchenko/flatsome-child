@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAC,gBAAgB,CAAC,mBAAmB,CAAC;EAC7C,gBAAgB,EAAE,SAAS;CAAG",
+    "sources": [
+        "productPage.sass"
+    ],
+    "names": [],
+    "file": "productPage.css"
+}

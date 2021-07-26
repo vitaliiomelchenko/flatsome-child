@@ -1,0 +1,373 @@
+@charset "UTF-8";
+
+body {
+	background: red !important;
+}
+@media only screen and (min-width: 1280px) {
+  body .container-width, body .full-width body .ubermenu-nav, body .container, body .row {
+    max-width: 89.23611vw;
+  }
+}
+
+.form-flat input:not([type="submit"]), .form-flat textarea, .form-flat select {
+  border-radius: 5px !important;
+}
+
+.search-field {
+  height: 50px !important;
+  background-color: #f7f7f7 !important;
+}
+
+.icon-shopping-cart:before {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.header-button .button.icon i {
+  font-size: 2.2em !important;
+  padding: 10px !important;
+}
+
+.label {
+  padding: 20px;
+}
+
+.cf_label {
+  margin-top: 20px;
+}
+
+.cf_label_featured {
+  margin-bottom: 20px;
+}
+
+ul.menu > li + li, .widget > ul > li + liіі {
+  border-top: none !important;
+}
+
+.footer-2 .is-divider {
+  display: none !important;
+}
+
+.footer-2 .widget-title {
+  margin-bottom: 18px !important;
+}
+
+header .top-divider {
+  display: none;
+}
+
+.nav-left {
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+.top-bar_content {
+  font-weight: 600;
+  font-size: 14px;
+  color: #000;
+  text-align: center;
+}
+
+.underlined_btn span:hover {
+  text-decoration: underline;
+}
+
+.simple_btn span {
+  color: black;
+}
+
+.simple_btn i {
+  color: black;
+}
+
+.header-button span {
+  color: black;
+  padding: 2px;
+}
+
+.header-button i {
+  color: white;
+}
+
+.header-button .woocommerce-Price-currencySymbol {
+  color: white;
+}
+
+.header-button bdi {
+  color: white;
+}
+
+.header-button:hover {
+  background-color: #ffba00;
+}
+
+.products_slider .product-small {
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.request_button span {
+  color: black;
+  font-size: 13px;
+}
+
+.request_button {
+  border-radius: 0.20833vw !important;
+}
+
+.subscribe_banner_content {
+  margin-bottom: 30px;
+}
+
+.nav-dropdown-has-arrow li.has-dropdown:after {
+  display: none;
+}
+
+.ourProducts img {
+  height: 45px;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.features_col {
+  border-right: 1px solid black;
+  padding-bottom: 0 !important;
+  height: 55px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.features_col ::last-child {
+  border-left: 0;
+}
+
+.features_col .col-inner h5 {
+  margin: 0;
+}
+
+.features {
+  padding-bottom: 0 !important;
+  height: 55px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.img-inner img {
+  border-radius: 5px;
+}
+
+.popular_btn span:hover {
+  text-decoration: underline;
+}
+
+.brandLogo img {
+  height: 90px;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.brand_btn {
+  margin-top: 20px !important;
+}
+
+.brand_btn_bg {
+  height: 90px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+}
+
+.brand_btn_bg_col {
+  border-radius: 5px;
+}
+
+.about_features {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about_features .about_features_col {
+  text-align: center;
+}
+
+.about_features .about_features_col .about_features_img {
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 0 !important;
+  margin-left: 70px;
+}
+
+.aboutPageWorld_img {
+  max-height: 600px !important;
+  max-width: 1000px !important;
+}
+
+.aboutPage_adv_col .col-inner {
+  height: 300px !important;
+  padding: 10px;
+}
+
+.aboutPage_adv_col h1 {
+  color: #ffba00 !important;
+}
+
+.aboutPage_adv_col_gen h1 {
+  color: #ffba00 !important;
+}
+
+.aboutPage_adv_col_gen .col-inner {
+  height: 250px;
+  padding: 20px 30px;
+}
+
+.aboutPage_company_info_row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 40px;
+}
+
+.aboutPage_company_info_img {
+  height: 53px !important;
+  width: 53px !important;
+  margin-left: 75px;
+}
+
+.aboutPage_company_info_col {
+  text-align: center;
+}
+
+.resoucesLib li {
+  text-decoration: underline;
+  margin-bottom: 0;
+}
+
+.page-title {
+  background-color: #f7f7f7;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.page-title-inner {
+  padding-top: 0 !important;
+}
+
+.goodsFeatures_icon {
+  width: 56px;
+  height: 56px;
+}
+
+.single_add_to_cart_button {
+  background-color: #ffba00 !important;
+  border-radius: 5px !important;
+}
+
+.contactForm_wrapper {
+  padding: 20px;
+  border: 1px solid lightgray;
+  border: 1px solid #d6d6d6;
+  -webkit-box-shadow: 0 0 3px #e1e1e1;
+          box-shadow: 0 0 3px #e1e1e1;
+  margin-bottom: 50px !important;
+}
+
+.wpcf7-form-control-wrap {
+  height: 40px;
+}
+
+.cf7_request_half {
+  width: 100% !important;
+}
+
+.form_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.form_wrapper label {
+  width: 420px !important;
+}
+
+.form_wrapper_right {
+  margin-left: auto;
+}
+
+.Form-button {
+  background-color: #ffba00 !important;
+  border-radius: 5px !important;
+  width: 200px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.mainPage_features_row {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.mainPage_features_col {
+  border-left: 1px solid #000;
+}
+
+.mainPage_features_colum {
+  padding: 0 !important;
+}
+
+.mainPage_features_colum .attachment-medium {
+  padding-left: 10px;
+}
+
+.mainPage_features_colum .icon-box-text {
+  padding-top: 15px;
+}
+
+.subscripe-horizontal .row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.subscripe-horizontal .row .wpcf7-email {
+  margin-bottom: 0;
+  height: 48px;
+}
+
+.subscripe-horizontal .row .wpcf7-submit {
+  width: 120px;
+  height: 48px;
+  color: black;
+  border-radius: 0 .20833vw .20833vw 0;
+  font-size: 12px;
+}
+/*# sourceMappingURL=screen.css.map */
