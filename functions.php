@@ -8,7 +8,7 @@
 add_action( 'wp_enqueue_scripts', 'theme_name_scripts' );
 // add_action('wp_print_styles', 'theme_name_scripts'); // можно использовать этот хук он более поздний
 function theme_name_scripts() {
-	wp_enqueue_style('gen-styles', get_stylesheet_directory_uri() . '/sass/screen.css');
+	wp_enqueue_style('gen-styles', get_stylesheet_directory_uri() . '/dist/main.min.css');
 	
 }
 
@@ -249,7 +249,11 @@ function bbloomer_alter_price_cart( $cart ) {
     }
  
 }
-
+function mytheme_customize_register( $wp_customize )
+{
+   $wp_customize->remove_section('custom_css');
+}
+add_action( 'customize_register', 'mytheme_customize_register' );
 
 /**
  * Replaced single excerpt under meta 
