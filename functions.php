@@ -182,6 +182,8 @@ add_filter( 'woocommerce_get_price_html', 'bbloomer_alter_price_display', 9999, 
  
 function bbloomer_alter_price_display( $price_html, $product ) {
 	
+	global $post;
+	
     $rateUSD =  get_field("kurs_dolara","option");
 	$rateEUR =  get_field("kurs_evro","option");
 
@@ -189,16 +191,19 @@ function bbloomer_alter_price_display( $price_html, $product ) {
 	$priceEUR = get_field('priceEUR', get_the_ID());
 	$priceUSD = get_field('priceUSD', get_the_ID());
 	
+	$product = wc_get_product(  get_the_ID() );
+  	$product->get_price();
+	
     if ($currency == 'USD') {
-		$price_html = get_field("kurs_dolara","option") * $priceUSD; 
+		$price_html = $rateUSD * $product->get_price(); 
 	}
 
 	elseif ($currency == 'EUR' && isset($fields['field_60c74a75dd912'])) {
-		$price_html = $rateEUR * $priceEUR;
+		$price_html = $rateEUR * $product->get_price(); 
 	}
 
 	else {
-		$price_html = get_field('priceUAH',$post->ID);
+		$price_html = $product->get_price();
 	}
     
     
